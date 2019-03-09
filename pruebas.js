@@ -13,3 +13,7 @@ console.log(m.multiplicacion(1,24));
 console.log(m.multiplicacion('eeee','fhfjkdd'));
 
 console.log(q.quadraticFunctionSolver(1, 1, -1));
+
+console.log(m.par(2));
+console.log(m.par(1));
+console.log(m.par(-3));

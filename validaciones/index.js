@@ -1,13 +1,15 @@
 module.exports = {
     /**
      * Comprueba que son valores numéricos
-     * @param {*} n1 
-     * @param {*} n2 
+     * @param {*} numbers Lista de números a evaluar
      */
-    esNumero: function (n1, n2) {
-        if (typeof n1 !== 'number' || typeof n2 !== 'number') {
-            return false;
+    esNumero: function (numbers) {
+        var numberOk = true;
+        for (var i = 0; i < numbers.length && numberOk; i++) {
+            if (typeof numbers[i] !== 'number') {
+                numberOk = false;
+            }
         }
-        return true;
+        return numberOk;
     }
 }

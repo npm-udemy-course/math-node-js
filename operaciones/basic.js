@@ -10,7 +10,7 @@ module.exports = {
      * @param {*} n2 Numero dos de la suma
      */
     suma: function (n1, n2) {
-        return (validations.esNumero(n1, n2) ? n1 + n2: error.noNumber());
+        return (validations.esNumero([n1, n2]) ? n1 + n2: error.noNumber());
     },
     /**
      * Resta de dos numeros
@@ -20,7 +20,7 @@ module.exports = {
      * @param {*} n2 Numero dos de la resta
      */
     resta: function (n1, n2) {
-        return (validations.esNumero(n1, n2) ? n1 - n2: error.noNumber());
+        return (validations.esNumero([n1, n2]) ? n1 - n2: error.noNumber());
     },
     /**
      * Multiplicacion de dos numeros
@@ -30,7 +30,7 @@ module.exports = {
      * @param {*} n2 Numero dos de la multiplicacion
      */
     multiplicacion: function (n1, n2) {
-        return (validations.esNumero(n1, n2) ? n1 * n2: error.noNumber());
+        return (validations.esNumero([n1, n2]) ? n1 * n2: error.noNumber());
     },
     /**
      * Division de dos numeros
@@ -40,7 +40,17 @@ module.exports = {
      * @param {*} n2 Numero dos de la Division
      */
     division: function (n1, n2) {
-        return (validations.esNumero(n1, n2) ? n1 / n2: error.noNumber());
+        return (validations.esNumero([n1, n2]) ? n1 / n2: error.noNumber());
+    },
+    /**
+     * Comprueba que un número es par o no
+     * @example
+     * n = 2 => true
+     * n = 1 => false
+     * @param {*} n Número a comprobar
+     */
+    par: function (n) {
+        return (validations.esNumero([n]) ? (( n % 2 === 0) ? true : false ): error.noNumber());
     }
 }
 
