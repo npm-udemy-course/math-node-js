@@ -1,5 +1,5 @@
-const m = require('./operations/basic');
-const q = require('./functions/quadratic-functions');
+const m = require('./operaciones/basic');
+const q = require('./ecuaciones/ecuacion-2-grado');
 
 console.log(m.suma(1,2));
 

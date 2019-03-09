@@ -1,6 +1,6 @@
-const basic = require('./operations/basic');
-const validations = require('./validations');
-const quadratic = require('./functions/quadratic-functions');
+const basic = require('./operaciones/basic');
+const validations = require('./validaciones');
+const quadratic = require('./ecuaciones');
 
 module.exports = {
     basic,
