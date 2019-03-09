@@ -10,36 +10,37 @@ Esta librería se ha creado con el objetivo que los usuarios que quieran dar sus
 
 # Lista de funcionalidades a añadir a la librería
 
-A continuación os dejo las funcionalidades
+A continuación os dejo las funcionalidades que se han propuesto aunque está abierto a sugerencias de nuevas funcionalidades para la librería e ir contribuyendo
 
 ## Operaciones Básicas
-[X] Suma
-[X] Resta
-[X] Multiplicación
-[X] División
-[ ] Resto de una división
-[ ] Par / Impar
-[ ] Valor absoluto
-[ ] Valor de un porcentaje de una cantidad
-[ ] Teniendo una cantidad decir el porcentaje de ese valor
-[ ] Número positivo / negativo
-[ ] Introducir dos números y decir cual es el mayor, menor o si son iguales
+* [X] Suma
+* [X] Resta
+* [X] Multiplicación
+* [X] División
+* [ ] Resto de una división
+* [ ] Par / Impar
+* [ ] Valor absoluto
+* [ ] Valor de un porcentaje de una cantidad
+* [ ] Teniendo una cantidad decir el porcentaje de ese valor
+* [ ] Número positivo / negativo
+* [ ] Introducir dos números y decir cual es el mayor, menor o si son iguales
 
 ## Ecuaciones
-[ ] Ecuación de primer grado
-[X] Ecuación de segundo grado
+* [ ] Ecuación de primer grado
+* [X] Ecuación de segundo grado
 
 ## Superficies
-[ ] Área del triángulo => (BASE * ALTURA) / 2
-[ ] Perimetro del triángulo => Suma de los tres lados
-[ ] Área del Rectángulo => (BASE * ALTURA)
-[ ] Perímetro del Rectángulo => 2 * (BASE + ALTURA)
-[ ] Área del Círculo => pi * radio ^ 2 (al cuadrado)
-[ ] Perímetro del Círculo => 2 * pi * radio
+* [ ] Área del triángulo => (BASE * ALTURA) / 2
+* [ ] Perimetro del triángulo => Suma de los tres lados
+* [ ] Área del Rectángulo => (BASE * ALTURA)
+* [ ] Perímetro del Rectángulo => 2 * (BASE + ALTURA)
+* [ ] Área del Círculo => pi * radio ^ 2 (al cuadrado)
+* [ ] Perímetro del Círculo => 2 * pi * radio
 
 ## Funciones
-[ ] Calcular el factorial
-[ ] ¿Es número primo?
+* [ ] Calcular el factorial
+* [ ] ¿Es número primo?
+* [ ] Secuencia
 ## Instalación (del repositorio de Github)
 Seguir estas instrucciones
 
@@ -72,5 +73,5 @@ console.log(m.multiplicacion('eeee','fhfjkdd'));
 
 // Ecuación de 2º grado
 console.log(q.quadraticFunctionSolver(1, 1, -1));
-// [ 0.6180339887498949, -1.618033988749895 ]
+// * [ 0.6180339887498949, -1.618033988749895 ]
 ```
