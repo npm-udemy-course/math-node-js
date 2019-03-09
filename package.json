@@ -1,0 +1,28 @@
+{
+  "name": "proyecto-1a-matematicas",
+  "version": "1.0.1",
+  "description": "Proyecto de matemáticas sencillo para aprender NodeJS y subirlo a NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm-js-ts-angular-modules-course/proyecto-1a-matematicas.git"
+  },
+  "keywords": [
+    "math",
+    "matematica",
+    "suma",
+    "resta",
+    "division",
+    "multi",
+    "basico"
+  ],
+  "author": "Anartz Mugika <mugan86@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/npm-js-ts-angular-modules-course/proyecto-1a-matematicas/issues"
+  },
+  "homepage": "https://github.com/npm-js-ts-angular-modules-course/proyecto-1a-matematicas#readme"
+}
