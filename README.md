@@ -14,7 +14,7 @@ Seguir estas instrucciones
 
 ```
 // Importar el modulo
-const m = require('.');
+const m = require('npm-udemy-course/math-node-js');
 
 // Sumas
 console.log(m.suma(1,2)); => 3
