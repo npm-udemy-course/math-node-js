@@ -6,7 +6,7 @@ Modulo para realizar operaciones matematicas simples
 Seguir estas instrucciones
 
 ```
-npm install proyecto-1a-matematicas
+npm install npm-udemy-course/math-node-js
 ```
 
 # Uso
