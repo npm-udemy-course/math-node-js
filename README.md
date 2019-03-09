@@ -41,6 +41,39 @@ A continuación os dejo las funcionalidades que se han propuesto aunque está ab
 * [ ] Calcular el factorial
 * [ ] ¿Es número primo?
 * [ ] Secuencia
+
+## Conversores
+
+### Tiempo
+* [ ] Segundos a HH:MM:SS
+* [ ] HH:MM:SS a segundos
+* [ ] DD:HH::MM:SS a segundos
+* [ ] Segundos a DD:HH::MM:SS
+
+### Velocidad
+* [ ] Km/h a min/km
+* [ ] min/km a Km/h
+* [ ] m/s a Km/h
+* [ ] m/s a min/km
+* [ ] Km/h a min/km
+* [ ] min/km a Km/h
+* [ ] m/s a Km/h
+* [ ] m/s a min/km
+
+
+
+* [ ] Kilogramos a Libras
+* [ ] Libras a Kilogramos
+* [ ] Kilogramos a Piedras
+* [ ] Piedras a Kilogramos
+* [ ] Onzas a Gramos
+* [ ] Gramos a Onzas
+* [ ] Onzas a Libras
+* [ ] Libras a Onzas
+
+
+
+
 ## Instalación (del repositorio de Github)
 Seguir estas instrucciones
 
